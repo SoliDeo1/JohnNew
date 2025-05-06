@@ -78,8 +78,6 @@ main section .John-banner-one a {
     margin-bottom: 71px;
     text-decoration: none;
     color:  #FFFFFF;
-    border-style: double;
-    border-radius: 50%;
 }
 .section-two {
     display: flex;

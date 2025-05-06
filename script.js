@@ -149,7 +149,7 @@ for(var i = 0; i < spans.length; i++){
 
 
 
-function checkForm(el) {
+/* function checkForm(el) {
     var name = el.name.value; 
     var pass = el.pass.value;
     var repass = el.repass.value;
@@ -176,7 +176,7 @@ function checkForm(el) {
 
 
 
-}
+} */
 
 
 
