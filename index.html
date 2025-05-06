@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>John</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-one">
+            <div class="John-banner-one">
+                <article>
+                        <h1>Hi, I am John,<br>Creative Technologist</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <a href="#" rel="Resume">Download Resume</a>
+                </article>
+                <div style="max-width: 243px;">
+                    <img src="images/user.jpeg" alt="img" style="display: block; width: 100%; border-radius: 50%; overflow: hidden;">
+                </div>
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="second-container">
+                <div class="second-container-top">
+                    <ul>
+                        <li class="posts">Recent posts</li>
+                        <li class="view-all">View all</li>
+                    </ul>
+                </div>
+                <div class="two-blocks">
+                    <div>
+                        <h2>Making a design system from scratch</h2>
+                        <span>12 Feb 2020 Design, Pattern</span>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div>
+                        <div>
+                            <h2 id="pixel">Creating pixel perfect icons in Figma</h2>
+                        </div>
+                        <div>
+                            <span>12 Feb 2020 Figma, Icon Design</span>
+                        </div>
+                        <div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <form id="main-form" onsubmit="checkForm(this)" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+            <label for="password">Пароль:</label>
+            <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
+            <label for="repass">Проверка пароля:</label>
+            <input type="password" name="repass" placeholder="Проверка пароля" id="repass">
+            <span>Пол:</span>
+            <input type="radio" name="state" id="male" value="Мужской">
+            <label for="male">Мужской</label>
+            <input type="radio" name="state" id="female" value="Женский">
+            <span id="error" style="color: red;"></span>
+            <label for="female">Женский</label><br><br>
+            <input type="submit" name="submit" value="Готово">
+        </form>
+
+
+
+
+
+
+
+
+
+
+     
+
+       
+    </main>
+    <footer>
+        <div>
+            <ul>
+            <li><a href="https://www.facebook.com/?locale=ru_RU" rel="facebook" target="_blank"><img src="images/fb.svg" alt="fb"></a></li>
+                <li><a href="https://www.instagram.com/" rel="instagram" target="_blank"><img src="images/insta.svg" alt="insta"></a></li>
+                <li><a href="https://x.com/" rel="x" target="_blank"><img src="images/Group.svg" alt="twitter"></a></li>
+                <li><a href="https://www.linkedin.com/" rel="linkedin" target="_blank"><img src="images/Linkedin.svg" alt="Linkedin"></a></li>
+            </ul>
+            <p style="display: flex; justify-content: center;">Copyright ©2020 All rights reserved </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
