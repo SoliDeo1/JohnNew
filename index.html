@@ -2,18 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
     <title>John</title>
 </head>
 <body>
     <header>
-        <div class="header-container">
+        <div class="header-container d-flex">
             <nav>
-                <ul>
-                <li><a href="#">Works</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="d-flex">
+                    <li>
+                        <a href="#">Works</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
 
             </nav>
@@ -21,43 +28,37 @@
     </header>
 
     <main>
-        <section class="section-one">
-            <div class="John-banner-one">
+        <section class="section-one d-flex">
+            <div class="John-banner-one d-flex">
                 <article>
-                        <h1>Hi, I am John,<br>Creative Technologist</h1>
+                        <h1 class="section-one-presenter">Hi, I am John,<br>Creative Technologist</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                         <a href="#" rel="Resume" class="resume-button">Download Resume</a>
                 </article>
                 <div style="max-width: 243px;">
-                    <img src="images/user.jpeg" alt="img" style="display: block; width: 100%; border-radius: 50%; overflow: hidden;">
+                    <img src="images/Ellipse 1.png" alt="img" style="display: block; width: 100%; border-radius: 50%; overflow: hidden;">
                 </div>
             </div>
         </section>
-        <section class="section-two">
+        <section class="section-two d-flex">
             <div class="second-container">
                 <div class="second-container-top">
-                    <ul>
+                    <ul class="d-flex">
                         <li class="posts">Recent posts</li>
                         <li class="view-all">View all</li>
                     </ul>
                 </div>
-                <div class="two-blocks">
-                    <div>
-                        <h2>Making a design system from scratch</h2>
-                        <span>12 Feb 2020 Design, Pattern</span>
+                <div class="two-blocks d-flex">
+                    <div class="posts-article">
+                        <h2>Making a design system from <br>scratch</h2>
+                        <span>12 Feb 2020 <q></q>Design, Pattern</span>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
-                    <div>
-                        <div>
-                            <h2 id="pixel">Creating pixel perfect icons in Figma</h2>
-                        </div>
-                        <div>
-                            <span>12 Feb 2020 Figma, Icon Design</span>
-                        </div>
-                        <div>
-                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        </div>
-                    </div>
+                    <div class="posts-article-2">
+                        <h2 id="pixel">Creating pixel perfect icons in <br> Figma</h2>
+                        <span>12 Feb 2020 <q></q> Figma, Icon Design</span>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>  
                 </div>
             </div>
         </section>

@@ -3,19 +3,27 @@
     padding: 0;
 }
 
+.d-flex {
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
 header {
     padding-top: 27px;
 }
+
 .header-container {
-    display: flex;
     justify-content: end;
     max-width: 1032px;  
     margin: auto;
     padding-bottom: 140px;
 }
+
+
 header div nav ul {
     list-style: none;
-    display: flex;
     padding-right: 25px;
     
 }
@@ -25,7 +33,6 @@ header div nav ul li a{
     
 }
 .section-one {
-    display: flex; 
     justify-content: center;
 }
 
@@ -36,8 +43,6 @@ header div nav ul li a{
 
 .John-banner-one {
     max-width: 855px;
-    display: flex;
-
 }
 
 .John-banner-one p {
@@ -51,7 +56,8 @@ main section .John-banner-one h1 {
     line-height: 60px;
     letter-spacing: 0px;
     margin-bottom: 40px;
-    color:#1326d1;
+    color:#0b0f33;
+    
 }
 main section .John-banner-one p {
     font-family: Heebo;
@@ -78,17 +84,17 @@ main section .John-banner-one a {
     margin-bottom: 71px;
     text-decoration: none;
     color:  #FFFFFF;
+    border-radius: 10px;
 }
 .section-two {
-    display: flex;
-    justify-content: center;
+    margin: auto;
     background-color: #EDF7FA;
-    ;
 }
 
 
 .second-container {
     max-width: 855px;
+    margin: auto;
 }
 
 .second-container ul {
@@ -109,9 +115,58 @@ main section .John-banner-one a {
     padding-bottom: 26px;
 }
 .two-blocks {
-    display: flex;
-
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
 }
+.posts-article{
+    background-color: #FFFFFF;
+    max-width: 390px;
+    margin-bottom: 32px;
+}
+
+
+
+.posts-article h2{
+    margin-bottom: 17px;
+    padding: 24px 22px 16px;
+}
+
+
+.posts-article span{
+    padding: 11px 22px 7px;
+}
+.posts-article p{
+    margin-bottom: 11px;
+    padding: 17px 22px 11px;
+}
+.posts-article-2{
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+    max-width: 390px;
+}
+
+.posts-article-2 h2{
+    margin-bottom: 17px;
+    padding: 24px 22px 16px;
+}
+
+.posts-article-2 span{
+    padding: 11px 22px 7px;
+}
+.posts-article-2 p{
+    margin-bottom: 11px;
+    padding: 17px 22px 11px;
+}
+
+q ::before{
+    content: "/";
+    color: #0b0f33;
+}
+
+
+
+
 
 
 footer div ul li {

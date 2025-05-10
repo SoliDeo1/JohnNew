@@ -1,0 +1,25 @@
+@media only screen and (max-width: 567px) {
+    main section .John-banner-one h1{        
+        font-size: 35px;
+        background-color: aqua;
+    }
+}
+
+
+@media only screen and (max-width: 451px) {
+    main section .John-banner-one h1{        
+        font-size: 20px;
+        background-color: greenyellow;
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+    
+} 
+
+/* @media all and (min-width: 640px) and (max-width: 734px){
+    * {
+       background: red;
+    }
+} */
