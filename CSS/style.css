@@ -9,6 +9,11 @@
 .justify-center{
     justify-content: center;
 }
+.justify-between {
+    justify-content: space-between;
+}
+
+
 
 header {
     padding-top: 27px;
@@ -20,11 +25,14 @@ header {
     margin: auto;
     padding-bottom: 140px;
 }
-
+.container {
+    max-width: 855px;
+}
 
 header div nav ul {
     list-style: none;
     padding-right: 25px;
+    box-sizing: border-box;
     
 }
 header div nav ul li a{
@@ -38,7 +46,7 @@ header div nav ul li a{
 
 .section-one .John-banner-one img {
     height: 243px;
-    width: 243px;
+    max-width: 243px;
 }
 
 .John-banner-one {
@@ -123,6 +131,10 @@ main section .John-banner-one a {
     background-color: #FFFFFF;
     max-width: 390px;
     margin-bottom: 32px;
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+
 }
 
 
@@ -144,6 +156,8 @@ main section .John-banner-one a {
     background-color: #FFFFFF;
     margin-bottom: 32px;
     max-width: 390px;
+    display: inline-block;
+    padding: 15px;
 }
 
 .posts-article-2 h2{
@@ -160,8 +174,49 @@ main section .John-banner-one a {
 }
 
 q ::before{
-    content: "/";
+    content: "?";
     color: #0b0f33;
+}
+
+
+
+
+
+.featured-works .container {
+    margin: auto;
+}
+.featured-works .container p {
+    padding-top: 15px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+}
+
+.border {
+    border-bottom: 1px black solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.featured-works h3 {
+    margin-bottom: 16px;
+}
+
+.img-container-feat-works {
+    max-width: 246px;
+    margin-right: 18px;
+    height: 180px;
+}
+.img-container-feat-works img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.feat-works-year-span {
+    background-color: #142850;
+    border-radius: 50%;
+    color: white;
+    padding: 3px 7px;
+    margin-right: 26px;
 }
 
 
