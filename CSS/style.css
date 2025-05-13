@@ -12,8 +12,12 @@
 .justify-between {
     justify-content: space-between;
 }
-
-
+.d_block {
+    display: block;
+}
+.m_auto {
+    margin: auto;
+}
 
 header {
     padding-top: 27px;
@@ -23,7 +27,6 @@ header {
     justify-content: end;
     max-width: 1032px;  
     margin: auto;
-    padding-bottom: 140px;
 }
 .container {
     max-width: 855px;
@@ -31,26 +34,34 @@ header {
 
 header div nav ul {
     list-style: none;
-    padding-right: 25px;
     box-sizing: border-box;
     
 }
+
+header div nav ul li {
+    margin-left: 25px;
+}
+
 header div nav ul li a{
     text-decoration: none;
-    margin-left: 25px;
-    
 }
+
+
+
 .section-one {
     justify-content: center;
+    padding: 140px 0 71px ;
 }
 
 .section-one .John-banner-one img {
-    height: 243px;
-    max-width: 243px;
+    width: 100%;
+    display: block;
 }
 
 .John-banner-one {
     max-width: 855px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .John-banner-one p {
@@ -84,12 +95,11 @@ main section .John-banner-one a {
     line-height: 100%;
     letter-spacing: 0px;
     display: flex;
-    background-color: #e19080;
+    background-color: #FF6464;
     width: 208px;
     height: 47px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 71px;
     text-decoration: none;
     color:  #FFFFFF;
     border-radius: 10px;
@@ -180,15 +190,16 @@ q ::before{
 
 
 
-
+.featured-works {
+    padding-bottom: 83px;
+}
 
 .featured-works .container {
     margin: auto;
 }
 .featured-works .container p {
-    padding-top: 15px;
-    padding-bottom: 22px;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 .border {
@@ -198,7 +209,7 @@ q ::before{
 }
 
 .featured-works h3 {
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 .img-container-feat-works {
@@ -219,6 +230,34 @@ q ::before{
     margin-right: 26px;
 }
 
+.featured-works-article p {
+    margin-top: 90px;
+}
+
+
+
+
+
+
+/* form_container */
+
+
+.form_section {
+    background-color: black;
+    padding: 25px 0 25px;
+}
+
+.form_wraper {
+    margin: auto;
+    max-width: 600px;
+}
+.form_container {
+    
+}
+
+
+
+
 
 
 
@@ -228,6 +267,8 @@ footer div ul li {
     margin-left: 17px;
     margin-right: 17px;
     margin-bottom: 26px;
+    height: 30px;
+    width: 30px;
 }
 
 footer div ul {
@@ -240,5 +281,5 @@ footer div ul {
 
 footer  {
     padding-bottom: 54px;
-    padding-top: 134px;
+    padding-top: 51px;
 }
