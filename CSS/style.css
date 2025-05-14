@@ -56,6 +56,8 @@ header div nav ul li a{
 .section-one .John-banner-one img {
     width: 100%;
     display: block;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .John-banner-one {
@@ -250,9 +252,6 @@ q ::before{
 .form_wraper {
     margin: auto;
     max-width: 600px;
-}
-.form_container {
-    
 }
 
 
