@@ -179,36 +179,22 @@ for(var i = 0; i < spans.length; i++){
 } */
 
 
+/* const isUserReady = confirm('Готов?')    
+
+if (isUserReady) {
+    console.log('Lets go')
+} else {
+    console.log('Lets wait ...')
+}
+ */
+
+let count = 11
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+do {
+    console.log(count)
+    count++
+} while (count < 10)
 
 
 
